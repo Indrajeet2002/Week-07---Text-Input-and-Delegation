@@ -14,6 +14,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet var emailField: UITextField!
     @IBOutlet var passField: UITextField!
     
+    var patternChecker = PatternChecker()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -73,10 +75,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
             //            acceptChanges = false
             //        }
             
-            return acceptChanges
         }
         
-        
+        return acceptChanges
     }
     
 }

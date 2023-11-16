@@ -5,7 +5,8 @@
 //  Created by Indrajeet Patwardhan on 9/28/23.
 //
 
-import Foundation
+//import Foundation
+import UIKit
 
 class PatternChecker{
     private var pattern_email = try! NSRegularExpression(
